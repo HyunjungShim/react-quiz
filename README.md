@@ -1,6 +1,7 @@
 ## 아재개그 퀴즈
 ### 간단한 아재개그 퀴즈 토이프로젝트
-#### 사이트 링크: [아재개그 퀴즈](https://hyunjungshim.github.io/react-quiz/)
+#### 사이트 링크: <a href="https://hyunjungshim.github.io/react-quiz/" target="_blank">아재개그 퀴즈</a>
+
  #### 구성요소
  1. 퀴즈 시작화면 : 시작하기 버튼 클릭시 퀴즈 시작
  2. 퀴즈 진행화면 : 퀴즈 문제 표시 및 사용자 입력 받기
