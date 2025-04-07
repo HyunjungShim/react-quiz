@@ -16,6 +16,10 @@ const router = createBrowserRouter([
                 element: <QuizScreen />,
             }
         ]
+    },
+],
+    {
+        basename: process.env.NODE_ENV === "production" ? "/react-quiz" : "/"
     }
-]);
+);
 export default router;

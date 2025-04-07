@@ -6,7 +6,7 @@ export default function QuizScreen() {
     const { isOver,quizCount } = useQuiz();
     return (
         <>
-            {quizCount === 1 ? <QuizOver /> : isOver ? <ResultDisplay /> : <QuizList />}
+            {quizCount === 10 ? <QuizOver /> : isOver ? <ResultDisplay /> : <QuizList />}
         </>
     );
 }

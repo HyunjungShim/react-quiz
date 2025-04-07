@@ -2,19 +2,13 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
-/* Document
-   ========================================================================== */
-
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
 
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   font-size: 10px;
+  font-family: 'Gamja Flower', sans-serif;
 }
 
 /* Sections
@@ -227,31 +221,62 @@ a:active {
 /* settings */
 
 h1 {
-    font-size: 45px;
+  font-size: 65px;
 }
 h2 {
-    font-size: 25px;
+  font-size: 35px;
 }
 h3 {
-    font-size: 20px;
+  font-size: 30px;
 }
 h4 {
-    font-size: 15px;
+  font-size: 25px;
 }
-
 h5 {
-    font-size: 10px;
+  font-size: 20px;
 }
 h6 {
-    font-size: 5px;
+  font-size: 15px;
 }
 button , p, input {
-    font-size: 22px;
+  font-size: 32px;
+}
+p {
+  word-break: keep-all;
+}
+span {
+  font-size: 25px;
 }
 
-span {
-    font-size: 15px;
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 45px;
+  }
+  button, p, input {
+    font-size: 28px;
+  }
 }
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-weight: normal;
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  button, p, input {
+    font-size: 24px;
+  }
+}
+
+
+
 `;
 
 export default GlobalStyles;

@@ -14,5 +14,8 @@ declare module 'styled-components' {
             mainBlue: string;
             shadow: string;
         }
+        img: {
+            board: string;
+        }
     }
 } 
